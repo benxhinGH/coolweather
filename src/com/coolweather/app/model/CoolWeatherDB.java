@@ -32,6 +32,7 @@ public class CoolWeatherDB {
 	/**
 	 * 获取CoolWeatherDB的实例
 	 */
+	//synchronized用来修饰一个方法或者一个代码块，它用来保证在同一时刻最多只有一个线程执行该段代码。
 	public synchronized static CoolWeatherDB getInstance(Context context){
 		if(coolWeatherDB==null){
 			coolWeatherDB=new CoolWeatherDB(context);

@@ -65,8 +65,8 @@ public class WeatherActivity extends Activity implements OnClickListener{
 		cityNameText=(TextView)findViewById(R.id.city_name);
 		publishText=(TextView)findViewById(R.id.publish_text);
 		weatherDespText=(TextView)findViewById(R.id.weather_desp);
-		temp1Text=(TextView)findViewById(R.id.temp1);
-		temp2Text=(TextView)findViewById(R.id.temp2);
+		temp2Text=(TextView)findViewById(R.id.temp1);
+		temp1Text=(TextView)findViewById(R.id.temp2);
 		currentDateText=(TextView)findViewById(R.id.current_data);
 		String countyCode=getIntent().getStringExtra("county_code");
 		if(!TextUtils.isEmpty(countyCode)){
